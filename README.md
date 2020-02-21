@@ -1,4 +1,4 @@
-Installation for Termux
+Installation for Terminal/Vps
 
 $ apt update
 
@@ -8,23 +8,17 @@ $ apt install python
 
 $ apt install git
 
-$ git clone https://github.com/Myyepz/NewSB
+$ git clone https://github.com/Myyepz/MicroSB
 
-$ cd NewSB
+$ cd MicroSB
+
+$ apt install unzip
+
+$ unzip MicroSB.zip
+
+$ cd MicroSB
 
 $ python -m pip install -r requirements.txt
-
-$ python3 sby.py
-
-------------------------------
-
-Installation for VPS
-
-$ git clone https://github.com/Myyepz/NewSB
-
-$ cd NewSB
-
-$ python3 -m pip install -r requirements.txt
 
 $ python3 sby.py
 
