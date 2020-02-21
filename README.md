@@ -1,4 +1,4 @@
-Installation for Terminal/Vps
+Installation for Termux/Vps
 
 $ apt update
 
